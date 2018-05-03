@@ -1,0 +1,23 @@
+{
+    "name": "weiwang/slim-redis-cache",
+    "description": "slim redis cache for all http response",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangwei",
+            "email": "434533508@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "slim/slim": "~2.3",
+        "predis/predis": "~1.0"
+    },
+    "autoload": {
+    "psr-4": {
+        "Slim\\Middleware\\": "src/"
+    }
+  }
+}
