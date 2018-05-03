@@ -9,6 +9,7 @@
             "email": "434533508@qq.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.0",
         "slim/slim": "~2.3",
